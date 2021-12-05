@@ -6,9 +6,6 @@ const fs = require('fs');
 require('dotenv').config()
 
 
-console.log(process.env.LOGIN);
-console.log(process.env.PASSWORD);
-
 //Csv
 const writeStream = fs.createWriteStream('githubIssues.csv',{encoding: 'utf8'});
 writeStream.write(`Titulo; Descricão; Data de criação \n`);
