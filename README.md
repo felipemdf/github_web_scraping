@@ -1,5 +1,5 @@
 # Github Web Scrapping
-Raspagem de dados das issues criadas no github
+Raspagem de dados das issues no github.
 
 ## :construction: Status <br/>
 🚀 Concluído
